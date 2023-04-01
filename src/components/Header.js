@@ -117,7 +117,7 @@ const Header = () => {
               Patients
               </h3>
               <ul className="mx-7 space-y-3">
-              <Link href={"/doc/"}>
+              <Link href={"/patient/Doctors"}>
                 <li className=" py-2 flex items-center text-lg font-normal rounded-xl hover:text-indigo-600 hover:cursor-pointer hover:transition ease-in-out pl-2 px-2">
                   <BiSearchAlt2 className="mr-2" /> Browse a doctor  {" "}
                 </li>
