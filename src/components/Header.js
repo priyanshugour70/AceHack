@@ -122,12 +122,12 @@ const Header = () => {
                   <BiSearchAlt2 className="mr-2" /> Browse a doctor  {" "}
                 </li>
               </Link>
-              <Link href={"/doc/AppointmentsToday"}>
+              <Link href={"/patient/AppointmentBook"}>
                 <li className="py-2 flex items-center text-lg font-normal  rounded-xl hover:text-indigo-600 hover:cursor-pointer hover:transition ease-in-out pl-2 px-2">
                   <FaCalendarCheck className="mr-2" /> Book a appointment
                 </li>
               </Link>
-              <Link href={"/doc/AppointmentsRequest"}>
+              <Link href={"/patient/PatPrescription"}>
                 <li className="py-2 flex items-center text-lg font-normal rounded-xl hover:text-indigo-600 hover:cursor-pointer hover:transition ease-in-out pl-2 px-2">
                   <TbPrescription className="mr-2" />  Your prescription
                 </li>
