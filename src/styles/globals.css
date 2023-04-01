@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .hoverOvr {
+    @apply hover:border border-blue-800 rounded-xl hover:text-blue-800 hover:cursor-pointer hover:transition ease-in-out;
+  }
+  .mainHead {
+    @apply font-semibold uppercase tracking-[6px] text-2xl text-gray-300 flex justify-center items-center  border-gray-600 py-2 mb-4;
+  }
+  .subHead {
+    @apply flex items-center text-lg hoverOvr pl-2 px-2;
+  }
+  .mainHeadIcon {
+    @apply text-blue-600 mx-3 text-3xl hoverOvr hover:rounded-full;
+  }
+  
+}
