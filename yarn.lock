@@ -2807,6 +2807,11 @@ tailwind-scrollbar@^3.0.0:
   resolved "https://registry.yarnpkg.com/tailwind-scrollbar/-/tailwind-scrollbar-3.0.0.tgz#efc233195afc69bcae4cff393600d31fabe7860c"
   integrity sha512-OkVRX9Q1T769vk979UZ519jhj/j/zNBHql7zPLI+tlhX+ahksYO4ZryWD29lOETDx9Wj1sw+K1OeW7W3+ECQOA==
 
+tailwindcss-react@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-react/-/tailwindcss-react-0.0.0.tgz#0c4fee6a6fee8b1539c348c3009e2dea075acd45"
+  integrity sha512-dX52ynIvZWrh4qZ04ImTxjTUwFfCByjvZMVDrbvDLu4b/Tfghzk/ZJOvX9Tj3ejH5Fwt/6FqCR5dmLG108sXsg==
+
 tailwindcss@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.1.tgz#b6662fab6a9b704779e48d083a9fef5a81d2b81e"

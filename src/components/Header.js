@@ -81,13 +81,14 @@ const Header = () => {
                   <FaCalendarCheck className="mr-2" /> Appointment Requests
                 </li>
               </Link>
-              <Link href={"/doc/"}>
+              <Link href={"/doc/AppointmentManager"}>
                 <li className="py-2 flex items-center text-lg font-normal rounded-xl hover:text-indigo-600 hover:cursor-pointer hover:transition ease-in-out pl-2 px-2">
                   <FaBriefcaseMedical className="mr-2" /> Manage Appointments{" "}
                 </li>
               </Link>
             </ul>
           </section>
+
         </div>
       </div>
     </header>
