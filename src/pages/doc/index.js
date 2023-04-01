@@ -91,44 +91,47 @@ const DashboardCard = ({ title, icon, desc, dlink }) => {
         title: "Appointments Today",
         icon: <FaCalendarAlt />,
         desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
-        dlink: "AppointmentsToday"
+        dlink: "doc/AppointmentsToday"
       },
       {
         title: "Appointments Request",
         icon: <FaUser />,
         desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
-        dlink: "AppointmentsRequest"
+        dlink: "doc/AppointmentsRequest"
       },
       {
         title: "Appointments Manage",
         icon: <FaClipboardList />,
         desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
-        dlink: "AppointmentManager"
+        dlink: "doc/AppointmentManager"
       }
     ];
-  
-    const toolsData = [
-      {
-        title: "Search",
-        icon: <FaSearch />,
-        desc: "Go to this step by step guideline process on how to certify for your weekly benefits:"
-      },
-      {
-        title: "Billing",
-        icon: <FaMoneyBillAlt />,
-        desc: "Go to this step by step guideline process on how to certify for your weekly benefits:"
-      },
-      {
-        title: "Reports",
-        icon: <FaChartBar />,
-        desc: "Go to this step by step guideline process on how to certify for your weekly benefits:"
-      }
-    ];
-  
+
+    const appointmentsData1 = [
+        {
+          title: "Search",
+          icon: <FaSearch />,
+          desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
+          dlink: "Search"
+        },
+        {
+          title: "Your Prescription",
+          icon: <FaMoneyBillAlt />,
+          desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
+          dlink: "../patient/PatPrescription"
+        },
+        {
+          title: "Your Lab Report",
+          icon: <FaClipboardList />,
+          desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
+          dlink: "LabReport"
+        }
+      ];
+
     return (
       <div className="flex flex-col space-y-4">
         <DashboardSection data={appointmentsData} />
-        <DashboardSection data={toolsData} />
+        <DashboardSection data={appointmentsData1} />
       </div>
     );
   };
