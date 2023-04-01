@@ -137,7 +137,7 @@ const Header = () => {
                   <TbReportSearch className="mr-2" />  Your lab report
                 </li>
               </Link>
-              <Link href={"/doc/"}>
+              <Link href={"/patient/AppointmentHistory"}>
                 <li className="py-2 flex items-center text-lg font-normal rounded-xl hover:text-indigo-600 hover:cursor-pointer hover:transition ease-in-out pl-2 px-2">
                   <GrHistory className="mr-2" /> Appointment history   {" "}
                 </li>
