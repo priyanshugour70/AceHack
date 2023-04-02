@@ -112,7 +112,7 @@ const DashboardCard = ({ title, icon, desc, dlink }) => {
           title: "Search",
           icon: <FaSearch />,
           desc: "Go to this step by step guideline process on how to certify for your weekly benefits:",
-          dlink: "Search"
+          dlink: "../patient/Doctors"
         },
         {
           title: "Your Prescription",

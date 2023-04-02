@@ -132,7 +132,7 @@ const Header = () => {
                   <TbPrescription className="mr-2" />  Your prescription
                 </li>
               </Link>
-              <Link href={"/doc/AppointmentsRequest"}>
+              <Link href={"/doc/LabReport"}>
                 <li className="py-2 flex items-center text-lg font-normal rounded-xl hover:text-indigo-600 hover:cursor-pointer hover:transition ease-in-out pl-2 px-2">
                   <TbReportSearch className="mr-2" />  Your lab report
                 </li>
