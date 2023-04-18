@@ -31,7 +31,7 @@ const Header = () => {
 
   const menuRef = useRef();
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
+// I am gopala
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
